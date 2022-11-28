@@ -30,7 +30,7 @@ Django REST Framework.
     2. Using this id, open the shell in the container: `docker exec -id <id> sh`
     3. Create superuser: `python manage.py createsuperuser`
     4. Provide the required credentials.
-6. Read the documentation at `/api/docs/swagger/` or login at `/api/user/token`
+6. Read the documentation at `/api/docs/swagger/` or login at `/api/user/token/`
 
 ## Features
 * With admin access, create genres, actors, cinema halls, movies;
