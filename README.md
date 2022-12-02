@@ -11,19 +11,20 @@ Django REST Framework.
 ### Steps to install
 1. Clone the repository: `git clone https://github.com/mltdll/cinema-api.git`
 2. Change the directory: `cd cinema-api`
-3. Set environment variables for credentials of the database to be created:
-    * `DB_NAME`: Name of the database;
-    * `DB_USER`: Name of the user;
-    * `DB_PASSWORD`: Password for the database access.
+   3. Set environment variables for credentials of the database to be created:
+       * `DB_NAME`: Name of the database;
+       * `DB_USER`: Name of the user;
+       * `DB_PASSWORD`: Password for the database access.
 
-    For example, you can set these variables in the console, that way they will
-    only persist until the console is closed:
-    ```shell
-    export DB_NAME=example_db
-    export DB_USER=example_user
-    export DB_PASSWORD=example_password
-    ```
-    Syntax may vary depending on your operational system.
+       You can create a `.env` file in the root directory of the project 
+       (as in `.env.example` file) or just set these variables in the 
+       console; that way they will only persist until the console is closed:
+       ```shell
+       export DB_NAME=example_db
+       export DB_USER=example_user
+       export DB_PASSWORD=example_password
+       ```
+       Syntax may vary depending on your operational system.
 4. Run the docker containers: `docker-compose up`
 5. Create superuser: 
     1. Get id of the docker container to access: `docker ps`
