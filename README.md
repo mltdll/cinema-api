@@ -14,7 +14,8 @@ Django REST Framework.
    3. Set environment variables for credentials of the database to be created:
        * `DB_NAME`: Name of the database;
        * `DB_USER`: Name of the user;
-       * `DB_PASSWORD`: Password for the database access.
+       * `DB_PASSWORD`: Password for the database access;
+       * `DJANGO_SECREET_KEY`: Secret key for your Django application.
 
        You can create a `.env` file in the root directory of the project 
        (as in `.env.example` file) or just set these variables in the 
@@ -23,6 +24,7 @@ Django REST Framework.
        export DB_NAME=example_db
        export DB_USER=example_user
        export DB_PASSWORD=example_password
+       export DJANGO_SECRET_KEY=example_key
        ```
        Syntax may vary depending on your operational system.
 4. Run the docker containers: `docker-compose up`
