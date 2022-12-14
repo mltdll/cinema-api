@@ -21,13 +21,13 @@ Django REST Framework.
     (as in `.env.example` file) or just set these variables in the 
     console; that way they will only persist until the console is closed:
        
-       ```shell
-       export DB_NAME=example_db
-       export DB_USER=example_user
-       export DB_PASSWORD=example_password
-       export DJANGO_SECRET_KEY=example_key
-       ```
-       Syntax may vary depending on your operational system.
+    ```shell
+    export DB_NAME=example_db
+    export DB_USER=example_user
+    export DB_PASSWORD=example_password
+    export DJANGO_SECRET_KEY=example_key
+    ```
+    Syntax may vary depending on your operational system.
 4. Run the docker containers: `docker-compose up`
 5. Create superuser: 
     1. Get id of the docker container to access: `docker ps`
