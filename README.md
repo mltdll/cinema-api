@@ -17,9 +17,10 @@ Django REST Framework.
        * `DB_PASSWORD`: Password for the database access;
        * `DJANGO_SECREET_KEY`: Secret key for your Django application.
 
-       You can create a `.env` file in the root directory of the project 
-       (as in `.env.example` file) or just set these variables in the 
-       console; that way they will only persist until the console is closed:
+    You can create a `.env` file in the root directory of the project 
+    (as in `.env.example` file) or just set these variables in the 
+    console; that way they will only persist until the console is closed:
+       
        ```shell
        export DB_NAME=example_db
        export DB_USER=example_user
